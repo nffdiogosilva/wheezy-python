@@ -7,7 +7,7 @@ Just the latest python version available (2.7.3) for wheezy (debian 7.11) and so
 Assuming Docker is installed and in case you want to interact inside the container:
 
 ```shell
-docker container run --rm -it nffdiogosilva/python:2.7.3
+docker container run --rm -it nffdiogosilva/python
 ```
 
 I suggest using the ```--rm``` option, if you don't want to have multiple containers running for the same image.
